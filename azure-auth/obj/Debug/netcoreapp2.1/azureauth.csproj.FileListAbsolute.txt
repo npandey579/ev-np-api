@@ -1,0 +1,14 @@
+E:\source\api\azure-auth\azure-auth\bin\Debug\netcoreapp2.1\azureauth.deps.json
+E:\source\api\azure-auth\azure-auth\bin\Debug\netcoreapp2.1\azureauth.runtimeconfig.json
+E:\source\api\azure-auth\azure-auth\bin\Debug\netcoreapp2.1\azureauth.runtimeconfig.dev.json
+E:\source\api\azure-auth\azure-auth\bin\Debug\netcoreapp2.1\azureauth.dll
+E:\source\api\azure-auth\azure-auth\bin\Debug\netcoreapp2.1\azureauth.pdb
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.csproj.CoreCompileInputs.cache
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.RazorAssemblyInfo.cache
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.RazorAssemblyInfo.cs
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.AssemblyInfoInputs.cache
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.AssemblyInfo.cs
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.RazorTargetAssemblyInfo.cache
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.dll
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.pdb
+E:\source\api\azure-auth\azure-auth\obj\Debug\netcoreapp2.1\azureauth.csprojAssemblyReference.cache
