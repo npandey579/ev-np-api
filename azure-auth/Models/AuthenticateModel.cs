@@ -1,4 +1,5 @@
-﻿using System;
+﻿using azureauth.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -14,6 +15,26 @@ namespace azureauth.Models.Users
         [Required]
         public string Password { get; set; }
     }
+    public class AuthenticateResponse
+    {
+        public long Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Username { get; set; }
+        public string Token { get; set; }
+
+        public string UserType { get; set; }
+
+        public AuthenticateResponse(User user, string token)
+        {
+            Id = user.Id;
+            FirstName = user.FirstName;
+            LastName = user.LastName;
+            Username = user.Username;
+            Token = token;
+            UserType = user.UserType;
+        }
+    }
     public class RegisterModel
     {
         [Required]
@@ -24,9 +45,16 @@ namespace azureauth.Models.Users
 
         [Required]
         public string Username { get; set; }
+        [Required]
+        public string Email { get; set; }
+
+        [Required]
+        public string MobileNo { get; set; }
 
         [Required]
         public string Password { get; set; }
+        [Required]
+        public string UserType { get; set; }
     }
     public class UpdateModel
     {
@@ -34,6 +62,10 @@ namespace azureauth.Models.Users
         public string LastName { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public string Email { get; set; }
+        public string UserType { get; set; }
+
+        public string MobileNo { get; set; }
     }
     public class UserModel
     {
@@ -41,6 +73,10 @@ namespace azureauth.Models.Users
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Username { get; set; }
-       
+        public string Email { get; set; }
+        public string UserType { get; set; }
+
+        public string MobileNo { get; set; }
+
     }
 }

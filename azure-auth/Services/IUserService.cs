@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using azureauth.Entities;
-
+using azureauth.Models.Users;
 
 namespace azureauth.Services
 
 {
     public interface IUserService
     {
-        User Authenticate(string username, string password);
+        AuthenticateResponse Authenticate(string username, string password);
         IEnumerable<User> GetAll();
-        User GetById(int id);
+        User GetById(long id);
         User Create(User user, string password);
         void Update(User user, string password = null);
-        void Delete(int id);
+        void Delete(long id);
     }
 }
